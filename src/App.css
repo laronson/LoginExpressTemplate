@@ -1,5 +1,7 @@
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -30,3 +32,56 @@
     transform: rotate(360deg);
   }
 }
+
+#loginFormDiv {
+  display:flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  justify-content: center;
+}
+
+#loginForm {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  width: 90%;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.form-input{
+  display: flex;
+  justify-content: center;
+}
+
+.login-input{
+  display:flex;
+  min-width: 40%;
+  align-self: center;
+}
+
+#submitLogin {
+  align-self: center;
+}
+
+ #createAccountDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#createAccountForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  flex-basis: 150px;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 30%;
+  align-self: center;
+}
+
+
+/***********************************************/

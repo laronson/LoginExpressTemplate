@@ -1,0 +1,15 @@
+
+<Router>
+  </LoginForm> - /login
+    -Form accepting:
+      - username
+      - password
+  </CreateAccountForm> - /createAccount
+    - form for following info:
+      - username
+      - address
+      - Date Signed up
+      - password
+  </MainPage> - /
+    -display user info
+</Router>
